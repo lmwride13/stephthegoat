@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - Landon Wride</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(to right, #004e92, #000428);
+      color: white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .navbar {
+      background-color: rgba(0, 0, 0, 0.8);
+      box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    }
+
+    .navbar-brand, .nav-link {
+      color: white !important;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    .nav-link:hover {
+      color: #66ccff !important;
+    }
+
+    .hero-title {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    .contact-card {
+      background-color: #ffffff;
+      color: #333;
+      border-radius: 15px;
+      padding: 30px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      transition: all 0.3s ease;
+    }
+
+    .contact-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+    }
+
+    .contact-icon {
+      font-size: 2rem;
+      color: #007BFF;
+      margin-bottom: 10px;
+    }
+
+    .btn-custom {
+      background-color: #007BFF;
+      border: none;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 30px;
+      font-size: 1rem;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-custom:hover {
+      background-color: #3399ff;
+    }
+
+    footer {
+      margin-top: 60px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #ddd;
+    }
+
+    .footer-link {
+      color: #66ccff;
+      text-decoration: none;
+    }
+
+    .footer-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">Landon Wride</a>
+      <ul class="navbar-nav ms-auto">
+        <!-- Home Button (as requested) -->
+        <li class="nav-item">
+          <a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Contact Header -->
+  <section class="text-center my-5">
+    <h1 class="hero-title">Get in Touch</h1>
+    <p class="lead text-light">Feel free to reach out through any of the platforms below.</p>
+  </section>
+
+  <!-- Contact Info Cards -->
+  <div class="container">
+    <div class="row g-4 justify-content-center">
+      <!-- Email -->
+      <div class="col-md-5 col-lg-4">
+        <div class="contact-card text-center">
+          <div class="contact-icon"><i class="bi bi-envelope-fill"></i></div>
+          <h5>Email</h5>
+          <p><a href="mailto:13lando13@gmail.com" class="text-decoration-none text-dark">13lando13@gmail.com</a></p>
+        </div>
+      </div>
+
+      <!-- Phone -->
+      <div class="col-md-5 col-lg-4">
+        <div class="contact-card text-center">
+          <div class="contact-icon"><i class="bi bi-telephone-fill"></i></div>
+          <h5>Phone</h5>
+          <p><a href="tel:4808811332" class="text-decoration-none text-dark">480-881-1332</a></p>
+        </div>
+      </div>
+
+      <!-- LinkedIn -->
+      <div class="col-md-5 col-lg-4">
+        <div class="contact-card text-center">
+          <div class="contact-icon"><i class="bi bi-linkedin"></i></div>
+          <h5>LinkedIn</h5>
+          <p><a href="https://linkedin.com/in/landon-wride-94a207203" target="_blank" class="text-decoration-none text-dark">linkedin.com/in/landon-wride</a></p>
+        </div>
+      </div>
+
+      <!-- Online Business -->
+      <div class="col-md-5 col-lg-4">
+        <div class="contact-card text-center">
+          <div class="contact-icon"><i class="bi bi-shop-window"></i></div>
+          <h5>Online Business</h5>
+          <p><a href="https://www.amway.com/en_US/myshop/LandonWride?logout=true" target="_blank" class="text-decoration-none text-dark">Visit My Amway Store</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="mt-5 py-4">
+    <div class="container">
+      <p>© 2025 Landon Wride — <a class="footer-link" href="https://linkedin.com/in/landon-wride-94a207203" target="_blank">LinkedIn</a></p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
